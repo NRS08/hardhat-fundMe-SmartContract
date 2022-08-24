@@ -1,0 +1,25 @@
+{
+  "name": "hh-fund-me",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@nomicfoundation/hardhat-toolbox": "^1.0.1",
+    "@nomiclabs/hardhat-ethers": "npm:hardhat-deploy-ethers@^0.3.0-beta.13",
+    "@nomiclabs/hardhat-etherscan": "^3.1.0",
+    "ethers": "^5.7.0",
+    "hardhat": "^2.10.2",
+    "hardhat-gas-reporter": "^1.0.8"
+  },
+  "dependencies": {
+    "@chainlink/contracts": "^0.4.2",
+    "dotenv": "^16.0.1",
+    "hardhat-deploy": "^0.11.12",
+    "solidity-coverage": "^0.7.21"
+  }
+}
